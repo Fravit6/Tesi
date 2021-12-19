@@ -76,9 +76,9 @@ Tutti gli account creati su Firebase hanno come password "password" (p minuscola
       ".read": true,
       ".write": "auth != null",
       // Posso solo creare una nuova entry e modificarne una di un mio parente
-      //"$codFiscIdGen": {
-       // ".write": "auth != null && (!data.exists() || data.val().contains(auth.uid) || !newData.exists())",
-      //},
+      "$codFiscIdGen": {
+       ".write": "auth != null && (!data.exists() || data.val().contains(auth.uid) || !newData.exists())",
+      },
     },
 
     "questionari": {
@@ -99,15 +99,14 @@ Tutti gli account creati su Firebase hanno come password "password" (p minuscola
       ".indexOn": ["userId", "idUtenteGestore"],
 
       // Accesso in lettura solo ai propri dati e a quelli dei parenti gestiti
-      //".read": "(auth.uid != null && query.orderByChild == '/userId' && query.equalTo == auth.uid) ||
-      //					(auth.uid != null && query.orderByChild == '/idUtenteGestore' && query.equalTo == auth.uid)",
-      	".read": "auth != null",
+      ".read": "(auth.uid != null && query.orderByChild == '/userId' && query.equalTo == auth.uid) ||
+      					(auth.uid != null && query.orderByChild == '/idUtenteGestore' && query.equalTo == auth.uid)",
     		".write": "auth != null",
 
       // Accesso in scrittura solo ai propri dati e a quelli dei parenti gestiti
       "$user_id": {
-        //".write": "(newData.child('userId').val() == auth.uid || newData.child('idUtenteGestore').val() == auth.uid) ||
-        //					 (data.child('idUtenteGestore').val() == auth.uid)",
+        ".write": "(newData.child('userId').val() == auth.uid || newData.child('idUtenteGestore').val() == auth.uid) ||
+        					 (data.child('idUtenteGestore').val() == auth.uid)",
 
         // Controlli sul campo codFiscale
         "codFiscale": {
