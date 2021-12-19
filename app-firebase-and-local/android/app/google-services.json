@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "629458654121",
+    "project_id": "youcarelocal",
+    "storage_bucket": "youcarelocal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629458654121:android:d639c0275d84d4b3c0eab8",
+        "android_client_info": {
+          "package_name": "com.fravit.you_care_local_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629458654121-0jqmftm6r6cdohvp7vbf4kb1beu84ejc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4jHmYvQ0ZolxKqEFfhdi7enfgOgAaeYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629458654121-0jqmftm6r6cdohvp7vbf4kb1beu84ejc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "56841160255",
+    "firebase_url": "https://youcare-3d0ce-default-rtdb.firebaseio.com",
+    "project_id": "youcare-3d0ce",
+    "storage_bucket": "youcare-3d0ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56841160255:android:ca2b778939bc1d1186da8a",
+        "android_client_info": {
+          "package_name": "com.fravit.tesi_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "56841160255-2hfacuuk6fm9oafk95ln0pi6sdmb7qg7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9BbGMlBjCNst1ITJ5XNd4DhDGwoXYiqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "56841160255-2hfacuuk6fm9oafk95ln0pi6sdmb7qg7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,431 @@
+{
+  "codiciFiscali" : {
+    "CSNRFF" : "PA7p7G7nkCbQLj0rHYMQVhqErPA3CSNRFF",
+    "FRRNDR" : "icBqt0y2QSYD98beKYjG3DEwlW83FRRNDR",
+    "GMBNTN" : "YucgjfaIrifbshmRBoOKGaviuYX2GMBNTN",
+    "GMBSMN" : "YucgjfaIrifbshmRBoOKGaviuYX2",
+    "GSLNGL" : "icBqt0y2QSYD98beKYjG3DEwlW83GSLNGL",
+    "MAICSM" : "keJAUvQiXDOETaBI1WUKrRl4GSG2",
+    "VTLCLL" : "PA7p7G7nkCbQLj0rHYMQVhqErPA3VTLCLL",
+    "VTLFDR" : "PA7p7G7nkCbQLj0rHYMQVhqErPA3",
+    "VTLFNC" : "icBqt0y2QSYD98beKYjG3DEwlW83",
+    "VTLGLG" : "icBqt0y2QSYD98beKYjG3DEwlW83VTLGLG",
+    "VTLSMN" : "icBqt0y2QSYD98beKYjG3DEwlW83VTLSMN"
+  },
+  "questionari" : {
+    "HqVQWFdRznZwK0AzmUrHTJqY1Ng1" : {
+      "-MRKA_H3CBiuQtlFDwZC" : {
+        "data" : "2021-01-18T11:08:11.005586",
+        "doloriMuscolari" : false,
+        "freqCardiaca" : "80.00",
+        "freqRespiro" : "10.00",
+        "malDiGola" : false,
+        "malDiTesta" : false,
+        "nausea" : false,
+        "pressioneMassima" : "150.00",
+        "respiroCorto" : false,
+        "saturazioneOssigeno" : "100.00",
+        "temp" : "37.00",
+        "tosse" : false,
+        "umore" : false,
+        "userId" : "HqVQWFdRznZwK0AzmUrHTJqY1Ng1"
+      }
+    },
+    "PA7p7G7nkCbQLj0rHYMQVhqErPA3" : {
+      "-MQg_t3P1kaQHE0mxWpU" : {
+        "data" : "2021-01-10T13:58:42.962248",
+        "doloriMuscolari" : false,
+        "freqCardiaca" : "80.00",
+        "freqRespiro" : "10.00",
+        "malDiGola" : false,
+        "malDiTesta" : false,
+        "nausea" : false,
+        "pressioneMassima" : "150.00",
+        "respiroCorto" : false,
+        "saturazioneOssigeno" : "100.00",
+        "temp" : "36.60",
+        "tosse" : false,
+        "umore" : false,
+        "userId" : "PA7p7G7nkCbQLj0rHYMQVhqErPA3"
+      }
+    },
+    "YucgjfaIrifbshmRBoOKGaviuYX2" : {
+      "-MQCUXuiR8eUhk9r9eh_" : {
+        "data" : "2021-01-04T13:02:45.350849",
+        "doloriMuscolari" : false,
+        "freqCardiaca" : "90.00",
+        "freqRespiro" : "15.00",
+        "malDiGola" : false,
+        "malDiTesta" : false,
+        "nausea" : false,
+        "pressioneMassima" : "140.00",
+        "respiroCorto" : false,
+        "saturazioneOssigeno" : "90.00",
+        "temp" : "37.00",
+        "tosse" : false,
+        "umore" : true,
+        "userId" : "YucgjfaIrifbshmRBoOKGaviuYX2"
+      },
+      "-MQIA3VpnSSzQRG5me5K" : {
+        "data" : "2021-01-05T15:30:59.205497",
+        "doloriMuscolari" : true,
+        "freqCardiaca" : "80.00",
+        "freqRespiro" : "17.00",
+        "malDiGola" : true,
+        "malDiTesta" : false,
+        "nausea" : false,
+        "pressioneMassima" : "155.00",
+        "respiroCorto" : false,
+        "saturazioneOssigeno" : "98.50",
+        "temp" : "38.00",
+        "tosse" : true,
+        "umore" : false,
+        "userId" : "YucgjfaIrifbshmRBoOKGaviuYX2"
+      }
+    },
+    "icBqt0y2QSYD98beKYjG3DEwlW83" : {
+      "-MQ8C69tRGnjXZAHUj8H" : {
+        "data" : "2021-01-03T17:03:44.438827",
+        "doloriMuscolari" : false,
+        "freqCardiaca" : "80.00",
+        "freqRespiro" : "10.00",
+        "malDiGola" : false,
+        "malDiTesta" : false,
+        "nausea" : false,
+        "pressioneMassima" : "150.00",
+        "respiroCorto" : false,
+        "saturazioneOssigeno" : "100.00",
+        "temp" : "37.50",
+        "tosse" : false,
+        "umore" : false,
+        "userId" : "icBqt0y2QSYD98beKYjG3DEwlW83"
+      },
+      "-MQC5ZhZYeAfgUe7zDg8" : {
+        "data" : "2021-01-04T12:58:01.072679",
+        "doloriMuscolari" : true,
+        "freqCardiaca" : "74.00",
+        "freqRespiro" : "17.00",
+        "malDiGola" : true,
+        "malDiTesta" : true,
+        "nausea" : false,
+        "pressioneMassima" : "142.00",
+        "respiroCorto" : false,
+        "saturazioneOssigeno" : "100.00",
+        "temp" : "40.00",
+        "tosse" : true,
+        "umore" : false,
+        "userId" : "icBqt0y2QSYD98beKYjG3DEwlW83"
+      },
+      "-MQH8ajRtu4NNERWfKQS" : {
+        "data" : "2021-01-05T10:49:45.109570",
+        "doloriMuscolari" : true,
+        "freqCardiaca" : "90.00",
+        "freqRespiro" : "20.00",
+        "malDiGola" : true,
+        "malDiTesta" : true,
+        "nausea" : true,
+        "pressioneMassima" : "140.00",
+        "respiroCorto" : true,
+        "saturazioneOssigeno" : "97.50",
+        "temp" : "40.00",
+        "tosse" : true,
+        "umore" : false,
+        "userId" : "icBqt0y2QSYD98beKYjG3DEwlW83"
+      },
+      "-MQM2_x8eT_tLKeYQZBq" : {
+        "data" : "2021-01-06T18:43:25.158721",
+        "doloriMuscolari" : false,
+        "freqCardiaca" : "80.00",
+        "freqRespiro" : "10.00",
+        "malDiGola" : true,
+        "malDiTesta" : true,
+        "nausea" : true,
+        "pressioneMassima" : "150.00",
+        "respiroCorto" : false,
+        "saturazioneOssigeno" : "100.00",
+        "temp" : "38.00",
+        "tosse" : true,
+        "umore" : false,
+        "userId" : "icBqt0y2QSYD98beKYjG3DEwlW83"
+      },
+      "-MQRLOOu9S3Nosw7e4iE" : {
+        "data" : "2021-01-07T12:56:44.620728",
+        "doloriMuscolari" : false,
+        "freqCardiaca" : "80.00",
+        "freqRespiro" : "10.00",
+        "malDiGola" : false,
+        "malDiTesta" : false,
+        "nausea" : false,
+        "pressioneMassima" : "150.00",
+        "respiroCorto" : false,
+        "saturazioneOssigeno" : "100.00",
+        "temp" : "41.00",
+        "tosse" : false,
+        "umore" : true,
+        "userId" : "icBqt0y2QSYD98beKYjG3DEwlW83"
+      },
+      "-MQbcLZlCmePBFGPKSNs" : {
+        "data" : "2021-01-09T17:14:09.602344",
+        "doloriMuscolari" : false,
+        "freqCardiaca" : "80.00",
+        "freqRespiro" : "10.00",
+        "malDiGola" : false,
+        "malDiTesta" : false,
+        "nausea" : false,
+        "pressioneMassima" : "150.00",
+        "respiroCorto" : true,
+        "saturazioneOssigeno" : "100.00",
+        "temp" : "39.00",
+        "tosse" : false,
+        "umore" : true,
+        "userId" : "icBqt0y2QSYD98beKYjG3DEwlW83"
+      },
+      "-MQga5_EFDSirHSFsK1D" : {
+        "data" : "2021-01-10T13:59:38.345200",
+        "doloriMuscolari" : false,
+        "freqCardiaca" : "80.00",
+        "freqRespiro" : "10.00",
+        "malDiGola" : false,
+        "malDiTesta" : false,
+        "nausea" : false,
+        "pressioneMassima" : "150.00",
+        "respiroCorto" : false,
+        "saturazioneOssigeno" : "100.00",
+        "temp" : "36.60",
+        "tosse" : false,
+        "umore" : false,
+        "userId" : "icBqt0y2QSYD98beKYjG3DEwlW83"
+      },
+      "-MQlx2bawrfAHnogjgkS" : {
+        "data" : "2021-01-11T14:58:01.333784",
+        "doloriMuscolari" : true,
+        "freqCardiaca" : "75.00",
+        "freqRespiro" : "15.00",
+        "malDiGola" : true,
+        "malDiTesta" : false,
+        "nausea" : false,
+        "pressioneMassima" : "150.00",
+        "respiroCorto" : true,
+        "saturazioneOssigeno" : "97.50",
+        "temp" : "37.20",
+        "tosse" : true,
+        "umore" : false,
+        "userId" : "icBqt0y2QSYD98beKYjG3DEwlW83"
+      }
+    },
+    "icBqt0y2QSYD98beKYjG3DEwlW83MAICSM" : {
+      "-MQc8GQceK3V8xouRiHY" : {
+        "data" : "2021-01-09T17:20:38.793581",
+        "doloriMuscolari" : false,
+        "freqCardiaca" : "80.00",
+        "freqRespiro" : "10.00",
+        "malDiGola" : false,
+        "malDiTesta" : false,
+        "nausea" : false,
+        "pressioneMassima" : "150.00",
+        "respiroCorto" : true,
+        "saturazioneOssigeno" : "100.00",
+        "temp" : "37.90",
+        "tosse" : false,
+        "umore" : true,
+        "userId" : "icBqt0y2QSYD98beKYjG3DEwlW83MAICSM"
+      },
+      "-MQgbkdrHs88ctg8Ot2a" : {
+        "data" : "2021-01-10T14:07:09.625458",
+        "doloriMuscolari" : false,
+        "freqCardiaca" : "80.00",
+        "freqRespiro" : "10.00",
+        "malDiGola" : false,
+        "malDiTesta" : false,
+        "nausea" : false,
+        "pressioneMassima" : "150.00",
+        "respiroCorto" : false,
+        "saturazioneOssigeno" : "100.00",
+        "temp" : "36.70",
+        "tosse" : false,
+        "umore" : false,
+        "userId" : "icBqt0y2QSYD98beKYjG3DEwlW83MAICSM"
+      }
+    },
+    "icBqt0y2QSYD98beKYjG3DEwlW83VTLGLG" : {
+      "-MQRMW-04t_Xef7yFZVX" : {
+        "data" : "2021-01-07T12:57:04.563891",
+        "doloriMuscolari" : true,
+        "freqCardiaca" : "80.00",
+        "freqRespiro" : "10.00",
+        "malDiGola" : true,
+        "malDiTesta" : true,
+        "nausea" : true,
+        "pressioneMassima" : "150.00",
+        "respiroCorto" : true,
+        "saturazioneOssigeno" : "90.00",
+        "temp" : "41.50",
+        "tosse" : true,
+        "umore" : false,
+        "userId" : "icBqt0y2QSYD98beKYjG3DEwlW83VTLGLG"
+      }
+    },
+    "icBqt0y2QSYD98beKYjG3DEwlW83VTLSMN" : {
+      "-MQRtqls5q1kzIfDfTDF" : {
+        "data" : "2021-01-07T12:57:24.393399",
+        "doloriMuscolari" : true,
+        "freqCardiaca" : "80.00",
+        "freqRespiro" : "10.00",
+        "malDiGola" : true,
+        "malDiTesta" : false,
+        "nausea" : false,
+        "pressioneMassima" : "150.00",
+        "respiroCorto" : false,
+        "saturazioneOssigeno" : "100.00",
+        "temp" : "38.00",
+        "tosse" : true,
+        "umore" : false,
+        "userId" : "icBqt0y2QSYD98beKYjG3DEwlW83VTLSMN"
+      },
+      "-MQWcxdY48hO4Q2Q-V7j" : {
+        "data" : "2021-01-08T10:56:30.248089",
+        "doloriMuscolari" : true,
+        "freqCardiaca" : "80.00",
+        "freqRespiro" : "10.00",
+        "malDiGola" : true,
+        "malDiTesta" : false,
+        "nausea" : false,
+        "pressioneMassima" : "150.00",
+        "respiroCorto" : false,
+        "saturazioneOssigeno" : "100.00",
+        "temp" : "37.00",
+        "tosse" : true,
+        "umore" : false,
+        "userId" : "icBqt0y2QSYD98beKYjG3DEwlW83VTLSMN"
+      }
+    }
+  },
+  "topic" : {
+    "-MQHT-6udjXEA0U5aSfe" : {
+      "data" : "2021-01-05T12:13:37.915477",
+      "idAutore" : "icBqt0y2QSYD98beKYjG3DEwlW83",
+      "nomeAutore" : "Vitale Francesco",
+      "testo" : "Testo Topic 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas leo quis purus porta finibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam lacinia non nulla vel gravida. Suspendisse consectetur rhoncus ante, eget volutpat odio egestas vel. Curabitur euismod at nibh vitae faucibus. Duis sed odio est. Vestibulum sit amet enim condimentum, hendrerit lacus porta, suscipit risus.",
+      "titolo" : "Titolo topic 1"
+    },
+    "-MQHlSbFnih2Reky8uV5" : {
+      "data" : "2021-01-05T13:38:45.589073",
+      "idAutore" : "icBqt0y2QSYD98beKYjG3DEwlW83",
+      "nomeAutore" : "Vitale Francesco",
+      "risposte" : [ {
+        "data" : "2021-01-05T15:29:34.852707",
+        "idAutore" : "icBqt0y2QSYD98beKYjG3DEwlW83",
+        "nomeAutore" : "Vitale Francesco",
+        "testo" : "Risposta di Vitale Francesco: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas leo quis purus porta finibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. "
+      }, {
+        "data" : "2021-01-05T16:02:19.696020",
+        "idAutore" : "YucgjfaIrifbshmRBoOKGaviuYX2",
+        "nomeAutore" : "Gambardella Simona",
+        "testo" : "Risposta di Simona Gambardella: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas leo quis purus porta finibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. "
+      } ],
+      "testo" : "Testo Topic 2: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas leo quis purus porta finibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam lacinia non nulla vel gravida. Suspendisse consectetur rhoncus ante, eget volutpat odio egestas vel. Curabitur euismod at nibh vitae faucibus. Duis sed odio est. Vestibulum sit amet enim condimentum, hendrerit lacus porta, suscipit risus.",
+      "titolo" : "Titolo Topic 2"
+    }
+  },
+  "utenti" : {
+    "-MQ8Bz4Y-I4LmZWqsmcr" : {
+      "codFiscale" : "VTLFNC",
+      "codTessera" : "1234",
+      "cognome" : "Vitale",
+      "email" : "test@test.it",
+      "nome" : "Francesco",
+      "notifiche" : true,
+      "userId" : "icBqt0y2QSYD98beKYjG3DEwlW83"
+    },
+    "-MQ8_ABSYu92w8ew-LUA" : {
+      "codFiscale" : "GMBSMN",
+      "codTessera" : "1234",
+      "cognome" : "Gambardella",
+      "email" : "test2@test2.it",
+      "nome" : "Simona",
+      "notifiche" : true,
+      "userId" : "YucgjfaIrifbshmRBoOKGaviuYX2"
+    },
+    "-MQMg6qBJbCoF4BQNRUN" : {
+      "codFiscale" : "VTLGLG",
+      "codTessera" : "123456",
+      "cognome" : "Vitale",
+      "idUtenteGestore" : "icBqt0y2QSYD98beKYjG3DEwlW83",
+      "nome" : "Gian Luigi",
+      "notifiche" : true,
+      "userId" : "icBqt0y2QSYD98beKYjG3DEwlW83VTLGLG"
+    },
+    "-MQNJGnqHTH3kzOxnL5q" : {
+      "codFiscale" : "GSLNGL",
+      "codTessera" : "123456789",
+      "cognome" : "Gisolfi",
+      "idUtenteGestore" : "icBqt0y2QSYD98beKYjG3DEwlW83",
+      "nome" : "Angelamaria",
+      "notifiche" : true,
+      "userId" : "icBqt0y2QSYD98beKYjG3DEwlW83GSLNGL"
+    },
+    "-MQNnjWFUnvSuF1kdYyc" : {
+      "codFiscale" : "VTLSMN",
+      "codTessera" : "123456",
+      "cognome" : "Vitale",
+      "idUtenteGestore" : "icBqt0y2QSYD98beKYjG3DEwlW83",
+      "nome" : "Simone",
+      "notifiche" : true,
+      "userId" : "icBqt0y2QSYD98beKYjG3DEwlW83VTLSMN"
+    },
+    "-MQRi6LElRVYtNeCGpDA" : {
+      "codFiscale" : "GMBNTN",
+      "codTessera" : "123456789",
+      "cognome" : "Gambardella",
+      "idUtenteGestore" : "YucgjfaIrifbshmRBoOKGaviuYX2",
+      "nome" : "Antonello",
+      "notifiche" : true,
+      "userId" : "YucgjfaIrifbshmRBoOKGaviuYX2GMBNTN"
+    },
+    "-MQcBL-WWv7RfHPD6myY" : {
+      "codFiscale" : "FRRNDR",
+      "codTessera" : "1234",
+      "cognome" : "Ferrara",
+      "idUtenteGestore" : "icBqt0y2QSYD98beKYjG3DEwlW83",
+      "nome" : "Andrea Pio",
+      "notifiche" : true,
+      "userId" : "icBqt0y2QSYD98beKYjG3DEwlW83FRRNDR"
+    },
+    "-MQgMeD-GrS0OX5cFx1_" : {
+      "codFiscale" : "VTLFDR",
+      "codTessera" : "1234",
+      "cognome" : "Vitale",
+      "email" : "federico@vitale.it",
+      "nome" : "Federico",
+      "notifiche" : true,
+      "userId" : "PA7p7G7nkCbQLj0rHYMQVhqErPA3"
+    },
+    "-MQgeIMjvtZKfZmlwInV" : {
+      "codFiscale" : "VTLCLL",
+      "codTessera" : "123456789",
+      "cognome" : "Vitale",
+      "idUtenteGestore" : "PA7p7G7nkCbQLj0rHYMQVhqErPA3",
+      "nome" : "Clelia",
+      "notifiche" : true,
+      "userId" : "PA7p7G7nkCbQLj0rHYMQVhqErPA3VTLCLL"
+    },
+    "-MQghslo9fkTwTqBLIzV" : {
+      "codFiscale" : "CSNRFF",
+      "codTessera" : "123456789",
+      "cognome" : "Cosentino",
+      "idUtenteGestore" : "PA7p7G7nkCbQLj0rHYMQVhqErPA3",
+      "nome" : "Reffaella",
+      "notifiche" : true,
+      "userId" : "PA7p7G7nkCbQLj0rHYMQVhqErPA3CSNRFF"
+    },
+    "-MQq6nI1IOiP5E9XVj7y" : {
+      "codFiscale" : "MAICSM",
+      "codTessera" : "1234",
+      "cognome" : "Maio",
+      "email" : "maio@cosimo.it",
+      "nome" : "Cosimo",
+      "notifiche" : true,
+      "userId" : "keJAUvQiXDOETaBI1WUKrRl4GSG2"
+    }
+  }
+}
