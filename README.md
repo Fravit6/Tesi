@@ -68,7 +68,7 @@ Tutti gli account creati su Firebase hanno come password "password" (p minuscola
 
 ## Firebase Rule per Realtime Database
 
-
+```
 {
   "rules": {
     "codiciFiscali": {
@@ -119,7 +119,7 @@ Tutti gli account creati su Firebase hanno come password "password" (p minuscola
     },
   },
 }
-
+```
 
 
 
