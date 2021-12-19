@@ -1,0 +1,881 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Work+Sans:400,700&display=swap');
+
+
+
+/**********          GENERALI          **********/
+
+body, html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+}
+
+body {
+	background-color: #FFFFFF;
+	margin: 0;
+	/*padding-top: 86px;*/
+}
+
+body * {
+	-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+}
+
+
+h1, h2, h3, h4, h5, h6,
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
+	font-family: 'Montserrat', sans-serif;
+}
+
+p, a, span, li {
+	font-family: 'Work Sans', sans-serif;
+}
+
+::-moz-selection {
+	background-color: #222;
+	color: white;
+}
+
+::selection {
+	background-color: #222;
+	color: white;
+}
+
+
+/**********           HEADER         **********/
+
+header {
+	position: fixed;
+	/*top: 0;*/
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 86px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-ms-flex-line-pack: center;
+	    align-content: center;
+	padding: 0 5%;
+	background-color: #5EA5BB;
+	z-index: 9000;
+	-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+	-webkit-box-shadow: 0px -6px 15px #000000;
+			box-shadow: 0px -6px 15px #000000;
+}
+	header #spazio_logo {
+
+	}
+		header #spazio_logo a {
+			color: #fff;
+			text-decoration: none;
+			font-size: 32px;
+			line-height: 38px;
+			font-weight: 700;		
+		}
+	header #spazio_menu {
+
+	}
+		header #spazio_menu ul {
+			text-decoration: none;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-pack: justify;
+			    -ms-flex-pack: justify;
+			        justify-content: space-between;
+			-webkit-box-align: center;
+			    -ms-flex-align: center;
+			        align-items: center;
+			-ms-flex-line-pack: center;
+			    align-content: center;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+			header #spazio_menu ul li {
+				display: block;
+				margin: 0 20px;
+				color: #fff;
+				font-size: 13px;
+				line-height: 15px;
+			}
+				header #spazio_menu ul li a {
+					color: #fff;
+					text-decoration: none;
+					font-size: 13px;
+					line-height: 15px;
+				}
+	header #spazio_menu_mobile {
+		display: none;
+	}
+#menu_mobile {
+	display: none;
+}
+
+
+/**********         COMUNI          **********/
+
+.page_testata {
+	padding: 86px 10%;
+	min-height: 570px;
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	background-color: #5EA5BB;
+	background-size: cover;
+	background-position: right;
+	background-repeat: no-repeat;
+	/*background: transparent -o-linear-gradient(123deg, #E24D51 0%, #E24D51 100%) 0% 0% no-repeat padding-box;
+	background: transparent linear-gradient(123deg, #E24D51 0%, #E24D51 100%) 0% 0% no-repeat padding-box;*/
+}
+	.spazio_titolo_pagina {
+		margin-top: 60px;
+		word-wrap: break-word;
+	}
+		.spazio_titolo_pagina h1 {
+			color: #000;
+			font-size: 70px;
+			line-height: 90px;
+			font-weight: bold;
+		}
+		.single .spazio_titolo_pagina h1 {
+			color: #fff;
+		}
+	.spazio_sottotitolo_pagina {
+		width: 50%;
+	}
+		.spazio_sottotitolo_pagina p, 
+		.spazio_sottotitolo_pagina a {
+			text-decoration: none;
+			color: #000;
+			font-size: 18px;
+			line-height: 21px;
+		}
+		.single .spazio_sottotitolo_pagina p, 
+		.single .spazio_sottotitolo_pagina a {
+			color: #fff;
+		}
+
+.page_container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	padding: 80px 10%;
+	word-wrap: break-word;
+	overflow: hidden;
+}
+
+.grecaptcha-badge {
+	display: none!important;
+}
+.page-template-page-contatti .grecaptcha-badge {
+	display: block!important;
+}
+
+#policy_alert {
+	display: none;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-ms-flex-line-pack: center;
+	    align-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100vw;
+    padding: 20px 5%;
+	background-color: #000;
+	z-index: 9900;
+	opacity: 1;
+	-webkit-transition: opacity 0.3s;
+	-o-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+	#policy_alert p {
+		color: #fff;
+		font-size: 14px;
+		line-height: 18px;
+	}
+	#policy_alert #bottoni_policy {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-ms-flex-wrap: nowrap;
+		    flex-wrap: nowrap;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+	}
+		#policy_alert #bottoni_policy a {
+			text-decoration: none;
+			text-align: center;
+			cursor: pointer;
+			outline: none;
+			color: #fff;
+			border: 1px solid #fff;
+			padding: 6px 12px;
+			margin: 10px;
+			font-size: 14px;
+			line-height: 18px;
+			margin: 10px;
+		}
+			#policy_alert #bottoni_policy #bottone_ok {
+
+			}
+			#policy_alert #bottoni_policy #bottone_more {
+				min-width: 120px;
+			}
+
+
+
+
+
+
+
+/**********        LOGIN         **********/
+
+#login_container_primo #spazio_form {
+		width: 100%;
+	}
+		#login_container_primo #spazio_form .riga_form {
+			width: 90%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			align-content: center;
+			margin: 60px auto;
+		}
+		#login_container_primo #spazio_form .riga_form input {
+			font-family: 'Work Sans', sans-serif;
+			font-size: 24px;
+			line-height: 28px;
+			font-weight: 600;
+			color: #464646;
+			border-top: none;
+			border-left: none;
+			border-right: none;
+			border-bottom: 1px solid #707070;
+			padding-top: 10px;
+			padding-bottom: 20px;
+			width: 40%;
+			outline: none;
+		}
+		#login_container_primo #spazio_form .riga_form .help-block {
+			margin-top: 8px;
+		}
+		#login_container_primo #spazio_form .riga_form.has-error .help-block {
+			color: red;
+		}
+	#login_container_primo #spazio_form .riga_form.policy {
+		margin: 0 auto;
+	}
+		#login_container_primo #spazio_form .riga_form #testo_policy input {
+			width: auto;
+		}
+	#login_container_primo #spazio_form .riga_form.submit {
+		margin: 0 auto;
+		flex-direction: column;
+		justify-content: center;
+	}
+		#login_container_primo #spazio_form .riga_form.submit button {
+			background-color: #fff;
+			text-align: center;
+			text-decoration: none;
+			font-size: 24px;
+			line-height: 28px;
+			font-weight: 600;
+			color: #464646;
+			margin-top: 20px;
+			padding: 20px 80px;
+			cursor: pointer;
+			outline: none;
+			border: 2px solid #464646;
+		}
+	#login_container_primo #spazio_form #risposta {
+		text-align: center;
+	}
+	#login_container_primo #spazio_form #risposta .success {
+		color: green;
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 24px;
+	}
+	#login_container_primo #spazio_form #risposta .error {
+		color: red;
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 24px;
+	}
+	#login_container_primo #spazio_form #risposta .alert {
+		color: #005212;
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 24px;
+	}
+
+
+
+
+
+/**********        HOMEPAGE         **********/
+
+#home_testata {
+	position: relative;
+	min-height: 400px;
+	overflow: hidden;
+	background-color: #F8F8F8;
+}
+	#home_testata .spazio_titolo_pagina,
+	#home_testata .spazio_sottotitolo_pagina {
+		z-index: 20;
+	}
+	#home_testata .spazio_titolo_pagina h1,
+	#home_testata .spazio_titolo_pagina h1 span,
+	#home_testata .spazio_sottotitolo_pagina .sottotitolo_pagina {
+		color: #000;
+	}
+
+#statistiche {
+
+}
+	#statistiche #spazio_box {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		align-content: center;
+	}
+		#statistiche #spazio_box .box {
+			margin: 0 4%;
+			flex: 1;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+		}
+
+#questionari {
+
+}
+	#questionari hr {
+		width: 100%;
+		text-align: left;
+		margin-left: 0;
+		height: 0px;
+		border: 1px solid #e2e2e2;
+		background-color: #e2e2e2;
+	}
+	#questionari .accordion {
+		background-color: #eee;
+		color: #444;
+		cursor: pointer;
+		padding: 18px;
+		width: 100%;
+		text-align: left;
+		border: none;
+		outline: none;
+		transition: 0.4s;
+	}
+	#questionari .active, 
+	#questionari .accordion:hover {
+		background-color: #ccc;
+	}
+	#questionari .panel {
+		padding: 0 18px;
+		background-color: white;
+		display: none;
+		overflow: hidden;
+	}
+
+
+
+/**********        FOOTER         **********/
+
+#container_mappa {
+	height: 340px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-ms-flex-line-pack: center;
+	    align-content: center;
+	background-image: url("/wp-content/uploads/2019/08/MoodMama-mappa-contattaci.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+	#container_mappa #cta_mappa {
+		padding: 20px 55px;
+		font-size: 15px;
+		line-height: 18px;
+		font-weight: bold;
+		text-transform: uppercase;
+		text-decoration: none;
+		background: #E24D51;
+		color: #fff;
+		-webkit-box-shadow: 0px 3px 6px #000000;
+		        box-shadow: 0px 3px 6px #000000;
+		border: 2px solid #E24D51;
+		/*border-radius: 15px;*/
+	}
+
+#container_subfooter {
+	padding: 0 10%;
+	background-color: #333333;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+	#container_subfooter .widget_footer {
+		color: #fff;
+		width: 32.5%;
+		margin: 100px 0;
+	}
+		#container_subfooter .widget_footer .titolo_widget {
+			color: #fff;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: bold;
+			font-size: 25px;
+			line-height: 30px;
+		}
+		#container_subfooter .widget_footer hr {
+			color: #fff;
+		}
+		#container_subfooter .widget_footer .testo_widget,
+		#container_subfooter .widget_footer a {
+			color: #fff;
+			font-size: 15px;
+			line-height: 26px;
+			text-decoration: none;
+		}
+
+
+
+/**********         MEDIA QUERIES: MOBILE          **********/
+@media screen and (max-width: 767px) {
+
+	/* HEADER: mobile */
+	.admin-bar header {
+		position: static;
+	}
+	header {
+		padding-right: 8%;
+		width: 100vw;
+	}
+		header #spazio_logo img {
+			max-width: 200px;
+		}
+		header #spazio_menu {
+			display: none;
+		}
+		header #spazio_menu_mobile {
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+		}
+			header #spazio_menu_mobile #hamburger {
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: flex;
+				background-color: transparent;
+				outline: none;
+				border: none;
+				margin: 0;
+				width: 32px;
+				height: 32px;
+				padding: 0;
+			}
+	#menu_mobile {
+		height: 0px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		overflow-x: hidden;
+		overflow-y: scroll;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-ms-flex-line-pack: center;
+		    align-content: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		position: fixed;
+		top: 86px;
+		width: 100vw;
+		left: 0;
+		right: 0;
+		background-color: #141414;
+		z-index: 8900;
+		-webkit-transition: height 0.3s ease-in-out;
+		-o-transition: height 0.3s ease-in-out;
+		transition: height 0.3s ease-in-out;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		-webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.55);
+				box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.55);
+	}
+	.admin-bar #menu_mobile {
+		top: 132px;
+	}
+		#menu_mobile ul {
+			text-decoration: none;
+			list-style: none;
+			padding: 0 40px;
+			text-align: center;
+			margin-bottom: 86px;
+		}
+			#menu_mobile ul li {
+				margin: 20px 0;
+				color: #fff;
+				font-size: 15px;
+				line-height: 18px;
+			}
+				#menu_mobile ul li a {
+					color: #fff;
+					text-decoration: none;
+				}
+
+
+
+
+	/* COMUNI: mobile */
+	.page_testata {
+		background-color: #E24D51;
+		background-position: center;
+		position: relative;
+		z-index: 100;
+	}
+	/*.page_testata::before {
+		content: "";
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background-color: #000;
+		opacity: 0.4;
+		z-index: 200;
+	}*/
+	.admin-bar .spazio_titolo_pagina {
+		margin-top: 0px;
+	}
+	.spazio_titolo_pagina {
+		z-index: 300;
+	}		
+		.spazio_titolo_pagina h1 {
+			font-size: 40px;
+			line-height: 50px;
+		}
+	.spazio_sottotitolo_pagina {
+    	width: 100%;
+    	z-index: 300;
+    }
+	.page_container {
+		padding: 100px 10%;
+	}
+
+	#policy_alert {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+		#policy_alert p {
+			font-size: 12px;
+			line-height: 16px;
+		}
+		#policy_alert #bottoni_policy {
+			-webkit-box-orient: horizontal;
+			-webkit-box-direction: normal;
+			    -ms-flex-direction: row;
+			        flex-direction: row;
+			-ms-flex-wrap: wrap;
+			    flex-wrap: wrap;
+		}
+
+
+
+	/* LOGIN: mobile */
+	#login_container_primo #spazio_form .riga_form {
+		width: 100%;
+		flex-direction: column;
+		margin: 0 auto;
+	}
+		#login_container_primo #spazio_form .riga_form input {
+			width: 100%;
+			margin-bottom: 40px;
+		}
+		#login_container_primo #spazio_form .riga_form #testo_policy input {
+			margin-bottom: 0;
+		}
+
+
+	/* HOME: mobile */
+	.admin-bar #home_testata {
+		padding-top: 0;
+	}
+	#home_testata.page_testata::before {
+		display: none;
+	}
+	#statistiche #spazio_lavori h2 {
+		font-size: 25px;
+		line-height: 35px;
+	}
+	#statistiche #spazio_lavori p {
+		font-size: 15px;
+		line-height: 20px;
+	}
+	#statistiche #spazio_lavori #bottone_lavori {
+		font-size: 15px;
+		line-height: 18px;
+		float: left;
+	}
+	#statistiche #spazio_lavori .swiper-container {
+		height: 100%;
+	}
+		#statistiche #spazio_lavori .swiper-slide {
+			text-align: center;
+			margin-bottom: 40px;
+		}
+	#questionari {
+		padding: 40px 10%;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+	}
+		#questionari #spazio_titolo_crescita h3 {
+			font-size: 25px;
+			line-height: 30px;
+			margin-top: 25px;
+			text-align: center;
+		}
+		#questionari #spazio_testo_crescita {
+			display: none;
+		}
+	#questionari_bis {
+		padding-top: 20px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+	}
+		#questionari_bis #spazio_testo_crescita_mobile {
+			display: block;
+			font-size: 15px;
+			line-height: 25px;
+		}
+		#home_container_terzo #spazio_filosofia h4 {
+			font-size: 40px;
+			line-height: 49px;
+			margin: 30px 0;
+		}
+		#home_container_terzo #spazio_filosofia p {
+			font-size: 15px;
+			line-height: 25px;
+			width: 100%;
+		}
+		#home_container_terzo #spazio_filosofia h5 {
+			font-size: 20px;
+			line-height: 25px;
+		}
+		#home_container_terzo #spazio_filosofia h6 {
+			font-size: 40px;
+			line-height: 49px;
+			margin: 30px 0;
+		}
+		#home_container_terzo #spazio_filosofia #spazio_loghi_partner img {
+			max-width: 80%;
+		}
+
+
+
+	/* FOOTER: mobile */
+	#container_mappa {
+		height: 170px;
+		padding: 0px 10%;
+	}
+		#container_mappa #cta_mappa {
+			padding: 12px 45px;
+		}
+	#container_subfooter {
+		padding: 50px 10%;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+		#container_subfooter .widget_footer {
+			width: 100%;
+			margin: 25px 0;
+		}
+
+
+}
+
+
+
+/**********         MEDIA QUERIES: TABLET          **********/
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+
+	/* HEADER: tablet */
+	.admin-bar header {
+		position: static;
+	}
+	header {
+		padding-right: 8%;
+		width: 100vw;
+	}
+		header #spazio_logo img {
+			max-width: 200px;
+		}
+		header #spazio_menu {
+			display: none;
+		}
+		header #spazio_menu_mobile {
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+		}
+			header #spazio_menu_mobile #hamburger {
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: flex;
+				background-color: transparent;
+				outline: none;
+				border: none;
+				margin: 0;
+				width: 32px;
+				height: 32px;
+				padding: 0;
+			}
+	#menu_mobile {
+		height: 0px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		overflow-x: hidden;
+		overflow-y: scroll;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-ms-flex-line-pack: center;
+		    align-content: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		position: fixed;
+		top: 86px;
+		width: 100vw;
+		left: 0;
+		right: 0;
+		background-color: #E24D51;
+		z-index: 8900;
+		-webkit-transition: height 0.3s ease-in-out;
+		-o-transition: height 0.3s ease-in-out;
+		transition: height 0.3s ease-in-out;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		-webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.55);
+				box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.55);
+	}
+	.admin-bar #menu_mobile {
+		top: 132px;
+	}
+		#menu_mobile ul {
+			text-decoration: none;
+			list-style: none;
+			padding: 0 40px;
+			text-align: center;
+			margin-bottom: 86px;
+		}
+			#menu_mobile ul li {
+				margin: 20px 0;
+				color: #fff;
+				font-size: 15px;
+				line-height: 18px;
+			}
+				#menu_mobile ul li a {
+					color: #fff;
+					text-decoration: none;
+				}
+
+	/* HOME: tablet */
+	.admin-bar #home_testata {
+		padding-top: 0;
+	}
+		#home_container_terzo #spazio_filosofia #spazio_loghi_partner img {
+			max-width: 80%;
+		}
+
+	
+
+
+
+}
+
+
+
+
+
+/**********      MEDIA QUERIES: DESKTOP XXL       **********/
+@media screen and (min-width: 2000px) {
+    
+
+}
